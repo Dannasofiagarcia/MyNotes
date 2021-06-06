@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>MyNotes!</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <meta charset="UTF-8">
+    </head>
+
+    <body>
+        
+        <div id="tasksContainer">
+            <div id="registerContainer">
+                <h3 id='nuevaTareaTitle'>NUEVA TAREA</h3>
+                <div id= 'itemsRegisterContainer'>
+                    <input id="nombre" class="inputdata" type="text" placeholder="Nombre de la tarea">
+                    <input id="descripcion" class="inputdata" type="text" placeholder="Descripción">
+                    <button id="regBtn">Agregar tarea</button>
+                </div>
+            </div>
+            <div id="toDo">
+                <h1 id="toDoTitle">TO DO</h1>
+                <div id="toDoContainer">
+
+                </div>
+            </div>
+
+            <div id="doing">
+                <h1 id="doingTitle">DOING</h1>
+                <div id="doingContainer">
+
+                </div>
+            </div>
+
+            <div id="done">
+                <h1 id="doneTitle">DONE</h1>
+                <div id="doneContainer">
+
+                </div>
+            </div>
+            
+        </div>
+    
+    </body>
+</html>
+
+<script src="js/toDoView.js"></script>
+<script src="js/doingView.js"></script>
+<script src="js/doneView.js"></script>
+<script src="js/index.js"></script>
